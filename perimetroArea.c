@@ -4,7 +4,7 @@ int main(){
 float a,b, c, diferente, perimetro, area; 
 
 scanf("%f %f %f", &a, &b, &c);
- a- b= diferente;
+diferente = a- b;
 if (diferente >= c )
 {
    area = (a + b) * c / 2 ;
@@ -12,7 +12,7 @@ if (diferente >= c )
 }
 else 
 {
-    a + b + c = perimetro;
+    perimetro = a + b + c;
 
     printf("Perimetro = %.1f",perimetro);
 }
